@@ -1,0 +1,34 @@
+.githubWidget {
+  width: 100%;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 8px;
+  background: var(--card-bg);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.githubStats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+}
+
+.githubCalendar {
+  width: 100%;
+  overflow-x: auto;
+  
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+} 
